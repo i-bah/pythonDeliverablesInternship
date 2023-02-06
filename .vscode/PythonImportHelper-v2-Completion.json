@@ -1,0 +1,65 @@
+[
+    {
+        "label": "number_of_shapes",
+        "kind": 5,
+        "importPath": "hillPattern",
+        "description": "hillPattern",
+        "peekOfCode": "number_of_shapes = int(input(\"Please enter the number of shapes: \"))\n# Prompt the user to enter the shape type\nshape_type = input(\"Please enter a shape type: \")\n# An outer loop that loops through the collected input from the user\nfor i in range(number_of_shapes):\n    # An inner loop that creates spaces\n    for j in range(i, number_of_shapes):\n        print(\" \", end=\" \")\n    # An inner loop that adds the inputted shape\n    for j in range(i):",
+        "detail": "hillPattern",
+        "documentation": {}
+    },
+    {
+        "label": "shape_type",
+        "kind": 5,
+        "importPath": "hillPattern",
+        "description": "hillPattern",
+        "peekOfCode": "shape_type = input(\"Please enter a shape type: \")\n# An outer loop that loops through the collected input from the user\nfor i in range(number_of_shapes):\n    # An inner loop that creates spaces\n    for j in range(i, number_of_shapes):\n        print(\" \", end=\" \")\n    # An inner loop that adds the inputted shape\n    for j in range(i):\n        print(shape_type, end=\" \")\n    # An inner loop that adds the inputted shape",
+        "detail": "hillPattern",
+        "documentation": {}
+    },
+    {
+        "label": "user_data",
+        "kind": 5,
+        "importPath": "wordReverse",
+        "description": "wordReverse",
+        "peekOfCode": "user_data = input(\"Enter a phrase or sentence: \")\n# Initialize the starting point of each word\nword_start = 0\n# Store each word in a list\nwords = []\n# Loop through each character in the user data\nfor i, char in enumerate(user_data):\n    # If a space is encountered, store the word\n    if char == ' ':\n        words.append(user_data[word_start:i])",
+        "detail": "wordReverse",
+        "documentation": {}
+    },
+    {
+        "label": "word_start",
+        "kind": 5,
+        "importPath": "wordReverse",
+        "description": "wordReverse",
+        "peekOfCode": "word_start = 0\n# Store each word in a list\nwords = []\n# Loop through each character in the user data\nfor i, char in enumerate(user_data):\n    # If a space is encountered, store the word\n    if char == ' ':\n        words.append(user_data[word_start:i])\n        word_start = i + 1\n# Add the last word to the list",
+        "detail": "wordReverse",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "wordReverse",
+        "description": "wordReverse",
+        "peekOfCode": "words = []\n# Loop through each character in the user data\nfor i, char in enumerate(user_data):\n    # If a space is encountered, store the word\n    if char == ' ':\n        words.append(user_data[word_start:i])\n        word_start = i + 1\n# Add the last word to the list\nwords.append(user_data[word_start:])\n# Initialize a list to store the reversed words",
+        "detail": "wordReverse",
+        "documentation": {}
+    },
+    {
+        "label": "rev_words",
+        "kind": 5,
+        "importPath": "wordReverse",
+        "description": "wordReverse",
+        "peekOfCode": "rev_words = []\n# Loop through each word in the list\nfor word in words:\n    # Initialize a variable to store the reversed word\n    rev_word = ''\n    # Loop through each letter in the word in reverse order\n    for letter in range(len(word) - 1, -1, -1):\n        rev_word += word[letter]\n    # Add the reversed word to the list of reversed words\n    rev_words.append(rev_word)",
+        "detail": "wordReverse",
+        "documentation": {}
+    },
+    {
+        "label": "concatenated",
+        "kind": 5,
+        "importPath": "wordReverse",
+        "description": "wordReverse",
+        "peekOfCode": "concatenated = rev_words[0]\nfor rev_word in rev_words[1:]:\n    concatenated += ' ' + rev_word\n# Print the concatenated string\nprint(concatenated)",
+        "detail": "wordReverse",
+        "documentation": {}
+    }
+]
