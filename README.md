@@ -5,7 +5,8 @@
 # Introduction
 
 This program allows the user to input the number of shapes and the type of shape they want to be displayed. The program will then generate the desired shapes.
-Requirements
+
+# Requirements
 
     Python 3 or higher
 
