@@ -35,7 +35,7 @@ This program provides an easy and efficient way to generate different shapes bas
 # Word Reversal Second Assignment 
 
 * This code prompts the user to enter a phrase or sentence, reverses each word in the phrase, and then concatenates the reversed words into a single string.
-Usage
+# Usage
 
 To run this code, simply run the file in a Python environment. The user will be prompted to enter a phrase or sentence, and the reversed phrase will be outputted to the console.
 # Code Walkthrough
