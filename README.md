@@ -25,7 +25,7 @@ This program allows the user to input the number of shapes and the type of shape
     The inner loops create spaces and add the inputted shape.
     The program then moves to the next line and repeats the process until the desired number of shapes have been displayed.
 
-Conclusion
+# Conclusion
 
 This program provides an easy and efficient way to generate different shapes based on the user's input. The program uses nested loops to create the desired shapes and is an excellent tool for learning and practicing loop structures in Python.
 
